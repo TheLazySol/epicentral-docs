@@ -1,4 +1,5 @@
 import React from 'react'
+// eslint-disable-next-line import/named
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
@@ -11,7 +12,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    content: '(C) 2025 Epicentral Labs',
   },
 }
 
